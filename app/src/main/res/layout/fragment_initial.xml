@@ -43,9 +43,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/catedral_title"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="4dp"
                 android:text="Fue construida con ignimbrita (piedra de origen volcánico), y..."
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="12sp" />
 
         </RelativeLayout>

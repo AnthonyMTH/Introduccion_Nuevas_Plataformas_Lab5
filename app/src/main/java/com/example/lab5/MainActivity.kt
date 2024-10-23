@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
 
         if (savedInstanceState == null) {
-            val fragment = ThirdFragment()
+            val fragment = InitialFragment()
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragmentContainerView, fragment)
                 .commit()

@@ -5,11 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".fragments.SecondFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:text="@string/hello_blank_fragment" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:textSize="12sp"
+        android:text="Volver a la actividad principal"
+        android:id="@+id/button_back"
+        android:layout_marginTop="20dp"/>
 
 </FrameLayout>
